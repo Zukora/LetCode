@@ -15,10 +15,10 @@ public class TwoSum {
 
     public static void main(String[] args) {
         int[] nums = new int[] {
-            2, 7, 11, 15
+            3, 7, 11, 15
         };
-        int target = 9;
-        int[] res = twoSum(nums, target);
-        System.out.println(String.format("[%s;%s]",res[0],res[1]));
+        int target = 18;
+        int[] twoSum = twoSum(nums, target);
+        System.out.println(String.format("[%s;%s]",twoSum[0],twoSum[1]));
     }
 }
