@@ -37,7 +37,7 @@ public class SortingByInclusion {
     }
 
     public static void main(String[] args) {
-        int[] myarray = new int[]{7, 3, 8, 4, 5, 6, 9, 1, 2};
+        int[] myarray = new int[]{7, 3, 8, 4, 5, 6, 9, 1, 2, 10, 33, 22, 13, 17};
         System.out.println("unsorted arrayy");
         printArray(myarray);
         System.out.println("Sorting steps...");
